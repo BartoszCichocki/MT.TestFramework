@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT TestFramework", "MT TestFramework\MT TestFramework.csproj", "{69EB1D00-D4EA-11E5-976A-EB95EB9579EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT TestFramework", "MT.TestFramework\MT.TestFramework.csproj", "{69EB1D00-D4EA-11E5-976A-EB95EB9579EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{69EB4410-D4EA-11E5-976A-EB95EB9579EE}"
 	ProjectSection(SolutionItems) = preProject
@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{69EB44
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT TestFramework.Tests", "MT TestFramework.Tests\MT TestFramework.Tests.csproj", "{69EB4411-D4EA-11E5-976A-EB95EB9579EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT.TestFramework.Tests", "MT.TestFramework.Tests\MT.TestFramework.Tests.csproj", "{69EB4411-D4EA-11E5-976A-EB95EB9579EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
