@@ -47,3 +47,4 @@
 -r:"/Users/mac/.nuget/packages/System.Threading.ThreadPool/4.0.10-rc2-23811/ref/dotnet5.4/System.Threading.ThreadPool.dll"
 -r:"/Users/mac/.nuget/packages/System.Threading.Timer/4.0.1-rc2-23811/ref/dotnet5.3/System.Threading.Timer.dll"
 "/Users/mac/MT.TestFramework/Program.cs"
+"/Users/mac/MT.TestFramework/Core/Flow/FlowRunner.cs"

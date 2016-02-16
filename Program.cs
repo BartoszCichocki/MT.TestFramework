@@ -1,29 +1,24 @@
 ﻿using System;
 using System.Linq;
-using System.Threading;
+using MT.TestFrameWork.Core.Flow;
 
-namespace ConsoleApplication
+namespace MT.TestFrameWork
 {
     public class Program
     {
         public static void Main(string[] args)
         {    
-            Console.WriteLine("Main thread: Start a second thread.");
-     
-            Thread t = new Thread(new ThreadStart(ThreadProc));
-
-            t.Start();
             
-            for (int i = 0; i < 4; i++) {
-                Console.WriteLine("Main thread: Do some work.");
-                Thread.Sleep(0);
-            }
-
-            Console.WriteLine("Main thread: Call Join(), to wait until ThreadProc ends.");
-            t.Join();
-            Console.WriteLine("Main thread: ThreadProc.Join has returned.  Press Enter to end program.");
-            Console.ReadLin 
-        
+            
+            Thread th = System.Threading.Thread.CurrentThread;
+         th.Name = "MainThread";
+         Console.WriteLine("This is {0}", th.Name);
+            
+            var runner = new FlowRunner();
+            runner.run = "asdasda";
+            
+            Console.WriteLine(runner.run);
+             
             var col = new string[]{"2","3"} ;
         	foreach (var item in col)
             {
