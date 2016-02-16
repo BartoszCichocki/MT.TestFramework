@@ -760,7 +760,8 @@
           "runtimes/osx.10.10-x64/native/libdbgshim.dylib": {},
           "runtimes/osx.10.10-x64/native/libmscordaccore.dylib": {},
           "runtimes/osx.10.10-x64/native/libmscordbi.dylib": {},
-          "runtimes/osx.10.10-x64/native/libsos.dylib": {}
+          "runtimes/osx.10.10-x64/native/libsos.dylib": {},
+          "runtimes/osx.10.10-x64/native/mscorlib.dll": {}
         }
       },
       "runtime.osx.10.10-x64.runtime.native.System/1.0.1-rc2-23811": {
@@ -1974,6 +1975,7 @@
         "runtimes/osx.10.10-x64/native/libmscordaccore.dylib",
         "runtimes/osx.10.10-x64/native/libmscordbi.dylib",
         "runtimes/osx.10.10-x64/native/libsos.dylib",
+        "runtimes/osx.10.10-x64/native/mscorlib.dll",
         "tools/crossgen"
       ]
     },
