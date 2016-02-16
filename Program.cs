@@ -1,12 +1,12 @@
-using System;
+﻿using System;
 
-namespace ConsoleApp1
+namespace ConsoleApplication
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-			Console.WriteLine("Hello from DNX!");
+            Console.WriteLine("Hello World!");
         }
     }
 }
