@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
-using System.Threading;
+
+using System.Reflection;
 
 using MT.TestFrameWork.Core.Flow;
 
@@ -12,9 +13,9 @@ namespace MT.TestFrameWork
         {    
             
             
-            Thread th = System.Threading.Thread.CurrentThread;
-         th.Name = "MainThread";
-         Console.WriteLine("This is {0}", th.Name);
+           //var th = Thread.CurrentThread;
+       //  th.Name = "MainThread";
+       //  Console.WriteLine("This is {0}", th.Name);
             
             var runner = new FlowRunner();
             runner.run = "asdasda";

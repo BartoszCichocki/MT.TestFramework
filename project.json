@@ -9,6 +9,7 @@
     },
 
     "frameworks": {
+        "dnx46": { },
         "dnxcore50": { }
     }
 }
