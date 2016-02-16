@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
 
-namespace MT TestFramework.Tests
+namespace MT.TestFramework.Tests
 {
 	[TestFixture]
     public class ProgramTest
