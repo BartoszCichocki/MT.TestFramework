@@ -33,3 +33,5 @@
     }
   }
 }
+
+gulp.task('watch', shell.task(['dnx-watch run']))
