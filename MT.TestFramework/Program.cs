@@ -19,11 +19,17 @@ namespace MT.TestFramework
             
             flow
                 
-                .ValidateThat(() => true)
-                    .Condition(() => expression())
-                    .Named("StepName")
-                    .Should()
-                        .ExecuteInLessThan(5).And().Return(Result.True)
+                .Validate(() => true)
+                    .Condition("StepName", () => expression())
+                    .That()
+                        .If()
+                            .ExecuteInLessThan(5)
+                            .And()
+                            .Return(ConditionState.True)
+                        .Then()
+                            .ReportSuccess()
+                        .Else()
+                            .ReportFailure()
                     .OnSuccess()
                     .OnFailure()
                         .Continiue()
